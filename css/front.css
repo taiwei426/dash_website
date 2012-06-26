@@ -1,0 +1,284 @@
+/* Dash
+   Designer: Vivian Zhang
+*****************************************************************/
+
+
+/* Global reset
+   http://meyerweb.com/eric/tools/css/reset/ 
+*****************************************************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Extended base styles (site specific)
+*****************************************************************/
+
+html { 
+	overflow-y: scroll; /* always force a scrollbar in non-IE */
+	}
+body {
+	background: url(../img/bg_front.png);
+	overflow-x: hidden;
+	height: 900px;
+	line-height: 1.5;
+	color: #666;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	color: #9C3;
+}
+
+a, a:link,
+a:active,
+a:visited {
+	-webkit-transition: color 0.25s ease-out;
+	-moz-transition: color 0.25s ease-out;
+	-o-transition: color 0.25s ease-out;
+	transition: color 0.25s ease-out;
+	color:#FFF;
+	outline: none;
+	text-decoration:none;
+	}
+	a:hover {
+	color:#9C3;
+		}
+img { 
+	display:block;
+	}
+p {
+	margin:1em 0;
+	}
+
+/* Common shared styles
+*****************************************************************/
+
+hr {
+	margin: 0;
+	border: none;
+	border-top: 1px solid #3b3b3b;
+	border-bottom: 1px solid #3b3b3b;
+	height: 3px;
+}
+
+/* Page structure
+*****************************************************************/
+
+
+#wrapper {
+	z-index: 4;
+	position: relative;
+	width: 1140px; /*viewport size.*/	
+	margin: 0 auto;
+	line-height: 1.7;
+}
+#header {
+	z-index: 4;
+	position: fixed;
+	max-width: 940px;
+	padding: 0 200;
+	margin: 0 auto;
+	line-height: 1.7;
+	width: 892px;
+}
+#branding {
+	float: right;
+}
+#appStore {
+	float: left; 
+	padding-top: 10px;
+	padding-left: 115px;
+}
+#imageBox {
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#phone {
+	width: 400px;
+	float: left;
+}
+#connectingBox {
+	float: right;
+	padding-right: 5px;
+	padding-top: 80px;
+}
+#descriptionBox {
+	float: right;
+	padding-right: 5px;
+	padding-top: 20px;
+}
+#buttonsBox {
+	float: right;
+	width: 300px;
+	padding-right: 5px;
+	padding-top: 10px;
+}
+#signUpBox {
+	float: right;
+	padding-right: 5px;
+}
+#manageBox {
+	float: right;
+	padding-right: 20px;
+}
+#videoBox {
+	float: right;
+	padding-right: 5px;
+	padding-top: 20px;
+}
+#video {
+	float: right;
+	padding-left: 25px;
+}
+#bottomIcon{
+	float: right;
+	width: 300px;
+	padding-top: 15px;
+}
+#socialIcon{
+	padding-right: 15px;
+	float: right;
+}
+#footer {
+	float: right;
+	padding-top: 60px;
+	width: 200px;
+}
+#footerPrivacy {
+	float: right;
+	padding-right: 7px;
+}
+#footerInfo {
+	float: right;
+	padding-right: 25px;
+}
+
+
+
+/* Navigation bar
+*****************************************************************/
+
+nav#primaryLeft {
+	z-index: 5;
+	position: fixed;
+	padding-top: 200px;
+	left: 70px;
+	text-align:right;	
+}
+nav#primaryLeft li {
+	position: relative;
+	height: 20px;
+}
+nav#primaryLeft a {
+	display: block;
+	width: 100px;
+	height: 20px;
+	text-indent: -9999px;
+}
+nav#primaryLeft a:hover {
+	color: #000;
+}
+nav#primaryLeft a.active {
+	color: #9C3
+}
+
+
+
+
+/* Parallax
+*****************************************************************/
+
+/* content */
+#content {
+	z-index: 4;
+	position: relative;
+	max-width: 940px;
+	padding: 0 200;
+	margin: 0 auto;
+	line-height: 1.7;
+	}
+	#content article {
+	width: 798px;
+	}
+		#homepage {
+			padding-top: 150px;
+			position: absolute;
+			top: 0px;
+			}
+	
+		#content h1 {
+			margin: 50px 0 25px 0;
+			font-size: 45px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bolder;
+			line-height: 65px;
+			color:#666
+			}
+		#content h2 {
+			font-size: 24px;
+			font-weight:500;
+			font-weight: bolder;
+			color:#999
+			}
+		#content h3 {
+			font-family:Arial, Helvetica, sans-serif;
+			color:#9C3;
+			font-weight: 100;
+			font-size:14px;
+			font: Verdana, Geneva, sans-serif;
+			}
+		#content h4 {
+			font-family:Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size:14px;
+			font: Verdana, Geneva, sans-serif;
+			}
+		#content h5 {
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:10px;
+			font: Verdana, Geneva, sans-serif;
+			}
+
+

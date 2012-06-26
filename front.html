@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <title>Dash for Teachers</title>		
+		<meta name="description" content="Dash is a mobile parent contact dashboard for teachers, by teachers. Also great for social workers, camp counselors, and after school activities." />
+        <meta name="keywords" content="Dash, teacher, parent, tracking, mobile, iPhone, app, communication." />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+		<link rel="stylesheet" media="all" href="css/front.css" />
+       
+		<link rel="stylesheet" type="text/css" href="css/style2.css" />
+
+		<script src="js/modernizr.custom.37797.js"></script> 
+		<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+		<script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
+		
+		<script src="js/parallax.js"></script>
+        <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+		<script language="javascript" type="text/javascript" src="js/jquery.easing.js"></script>
+		<script language="javascript" type="text/javascript" src="js/script.js"></script>
+        
+        <!--lightbox-->      
+        <!-- Add fancyBox main JS and CSS files -->
+        <script type="text/javascript" src="js/jquery.fancybox.js?v=2.0.6"></script>
+        <link rel="stylesheet" type="text/css" href="js/jquery.fancybox.css?v=2.0.6" media="screen" />
+    
+		<script type="text/javascript">
+            <!-- pop up sign up form-->
+            $(document).ready(function() {                        
+                $("#contact_form").fancybox({
+                    'width'             : '75%',
+                    'height'            : '75%',
+                    'autoScale'         : false,
+                    'transitionIn'      : 'none',
+                    'transitionOut'     : 'none',
+                    'type'             	: 'iframe'
+                });					
+            });
+            <!-- simple light box for images. uses default settings.-->
+            $(document).ready(function() {
+                $('.fancybox').fancybox();
+            <!-- simple light box for youtube video. uses default settings.-->
+                $(".fancyYoutube").fancybox({
+                        'width' : 680,
+                        'height' : 495,
+                        'type' : 'swf'
+                });
+            });
+        </script>
+</head>
+
+<body>
+    <div id="wrapper">
+    <div id="header">    
+        <div id="appStore"><img src="img/comingSoon.png" width="180" height="60" /></div>
+        <div id="branding"><a class="front" href="front.html"><img src="img/dashLogo.png" width="145" height="80" /></a></div>
+	</div>
+
+        <div id="content">
+            <article id="homepage">	
+                <div id="phone"><img src="img/phone.png" width="480" height="630" /></div>
+                <div id="connectingBox"><img src="img/connecting.png" width="280" height="65" /></div>
+                <div id="videoBox">
+                    <div id="video">
+                        <a class="fancyYoutube" href="http://www.youtube.com/v/L9szn1QQfas"><img src="img/whyDash.png" width="100" height="55" /></a>
+                     </div>
+                     <div id="video">   
+                        <a class="fancyYoutube" href="http://www.youtube.com/v/fQzp2H0269M"><img src="img/dashDemo.png" width="100" height="55" /></a>
+                    </div>
+                </div>
+                <div id="descriptionBox"><img src="img/emailApp.png" width="280" height="37" /></div>
+                <div id="buttonsBox">
+                    <div id="signUpBox">
+                            <a id="contact_form" href="https://docs.google.com/spreadsheet/embeddedform?formkey=dExJSWlLQjN1bTYzcjk4NzdkYUloelE6MQ"><img src="img/signup.png" width="130" height="60" /></a>
+                    </div>
+                     <div id="manageBox">
+                            <a class="manage" href="manage.html"><img src="img/manageButton.png" width="115" height="60" /></a>
+                    </div>
+                </div>
+                 <div id="bottomIcon">
+                    <div id="socialIcon"><a href="https://www.facebook.com/TechbyDash"><img src="img/fbSmall.png" width="13" height="20"></a></div>
+                    <div id="socialIcon"><a href="https://twitter.com/TechbyDash"><img src="img/twitterSmall.png" width="13" height="20"></a></div>
+                </div>
+                <div id="footer">
+                     <div id="footerPrivacy"><a class="privacy" href="privacy.html">privacy</a></div>
+                    <div id="footerInfo"><a class="about" href="index.html#about">about</a></div>
+                    <div id="footerInfo"><a class="contact" href="index.html#contact">contact</a></div>
+                </div>                              
+            </article>
+            </div>
+            </div>
+
+
+</body>
+</html>
