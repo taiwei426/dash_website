@@ -263,7 +263,6 @@ hr {
 #figurebox{
 	float: left;
 	width: 270px;
-	height: 800px;
 }
 
 	
@@ -397,8 +396,12 @@ nav#bottomBarBg a.active {
 					}
 				#container2{
 					position: absolute;
-					top: 840px;
+					top: 870px;
 					}
+				#container3{
+					position: absolute;
+					top: 1520px;
+				}
 		#news{
 			position: absolute;
 			top: 3000px;
@@ -446,6 +449,12 @@ nav#bottomBarBg a.active {
 			font-family:Arial, Helvetica, sans-serif;
 			font-size:10px;
 			font: Verdana, Geneva, sans-serif;
+			}
+		#content h6 {
+			font-size: 20px;
+			font-weight:400;
+			color:#999;
+			line-height: 1.4;
 			}
 
 
