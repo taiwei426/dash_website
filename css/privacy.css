@@ -130,89 +130,6 @@ hr {
 	padding-top: 10px;
 	padding-left: 115px;
 }
-#imageBox {
-	height: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-#phone {
-	width: 400px;
-	float: left;
-}
-#connectingBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 100px;
-}
-#descriptionBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 20px;
-}
-#signUpBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 10px;
-}
-#videoBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 20px;
-}
-#video {
-	float: right;
-	padding-left: 25px;
-}
-#recentPressBox {
-	width: 380px;
-	float: left;
-}
-#recentPressBoxContent {
-	padding-top: 15px;
-	float: left
-}
-#mediaInfo{
-	width: 250px;
-	float: right;
-}
-#mediaInfoContent {
-	padding-top: 30px;
-	float: left
-}
-#mediaBigIdea{
-	padding-top: 30px;
-	float: left
-}
-#employee {
-	padding-bottom: 40px;
-	width: 50%;
-	float:left;
-	min-height: 130px;
-	text-align: left;
-}
-#headshot {
-	height: 120px;
-	width: 120px;
-	float:left;	
-}
-#employeeInfo{
-	float:left;
-	text-align: left;
-	padding-left: 15px;
-}
-#contactUs {
-	width: 280px;
-	float: left;
-}
-#stayConnected{
-	width: 300px;
-	float: left;
-}
-#socialMedia{
-	float: left;
-	padding-top: 20px;
-	padding-right: 10px;
-}
 #bottomIcon{
 	z-index: 5;
 	position: fixed;
@@ -222,13 +139,6 @@ hr {
 #socialIcon{
 	padding-right: 15px;
 	float: right;
-}
-#howToContainer {
-	width: 800px;
-}
-#howToPics {
-	float:left;
-	padding-right: 20px;
 }
 	
 
@@ -307,8 +217,6 @@ nav#bottomLeft a:hover {
 nav#bottomLeft a.active {
 	color: #fff;
 }
-
-
 nav#bottomBarBg {
 	z-index: 5;
 	position: fixed;
@@ -337,164 +245,44 @@ nav#bottomBarBg a.active {
 
 /* content */
 #content {
-	position: relative;
-	width: 900px;	
+	position: absolute;
+	width: 700px;	
 	margin: 0 auto;
+	padding-top: 20px;
+	padding-left: 220px;
 	}
-	#content article {
-	width: 700px;
-	padding-top: 70px;
-	padding-left: 100px;
+	#content h1 {
+		margin: 50px 0 25px 0;
+		font-size: 45px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bolder;
+		line-height: 65px;
+		color:#666
 		}
-		#about {
-			position: absolute;
-			top: 0px;
-			}
-		#howitworks{
-			position: absolute;
-			top: 1090px;
-			height: 441px;
-			}
-		#news{
-			position: absolute;
-			top: 3000px;
-			}
-		#team{
-			position: absolute;
-			top: 4090px;
-			}
-		#support {
-			position: absolute;
-			top: 5180px;
-			}
-		#contact{
-			position: absolute;
-			top: 6270px;
-			}
-		#content h1 {
-			margin: 50px 0 25px 0;
-			font-size: 45px;
-			font-family: Arial, Helvetica, sans-serif;
-			font-weight: bolder;
-			line-height: 65px;
-			color:#666
-			}
-		#content h2 {
-			font-size: 24px;
-			font-weight:500;
-			font-weight: bolder;
-			color:#999
-			}
-		#content h3 {
-			font-family:Arial, Helvetica, sans-serif;
-			color:#9C3;
-			font-weight: 100;
-			font-size:14px;
-			font: Verdana, Geneva, sans-serif;
-			}
-		#content h4 {
-			font-family:Arial, Helvetica, sans-serif;
-			font-weight: bold;
-			font-size:14px;
-			font: Verdana, Geneva, sans-serif;
-			}
-		#content h5 {
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:10px;
-			font: Verdana, Geneva, sans-serif;
-			}
-
-/* wouldn't it be great*/
-#howto {
-	position: relative;
-	width: 900px;	
-	margin: 0 auto;
-	}
-	#howto section {
-	width: 700px;
-	padding-left: 100px;
+	#content h2 {
+		font-size: 24px;
+		font-weight:500;
+		font-weight: bolder;
+		color:#999
 		}
-		#container1 {
-			position: absolute;
-			top: 0px;
-			}
-		#container2{
-			position: absolute;
-			top: 800px;
-			}
-
-/* managing account: how to dash*/
-#manage {
-	position: relative;
-	width: 900px;	
-	margin: 0 auto;
-	}
-	#manage section {
-	width: 700px;
-	padding-top: 70px;
-	padding-left: 100px;
+	#content h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		color:#9C3;
+		font-weight: 100;
+		font-size:14px;
+		font: Verdana, Geneva, sans-serif;
 		}
-		#general {
-			position: absolute;
-			top: 0px;
-			}
-		#upload{
-			position: absolute;
-			top: 1090px;
-			}
-		#download {
-			position: absolute;
-			top: 2180px;
-			}
-		#account{
-			position: absolute;
-			top: 3270px;
-			}
-		#guardians{
-			position: absolute;
-			top: 4260px;
-			}
-		#tagging{
-			position: absolute;
-			top: 5350px;
-			}
-		#playlist{
-			position: absolute;
-			top: 6440px;
-			}
-		#manage h1 {
-			margin: 50px 0 25px 0;
-			font-size: 45px;
-			font-family: Arial, Helvetica, sans-serif;
-			font-weight: bolder;
-			line-height: 65px;
-			color:#666
-			}
-		#manage h2 {
-			font-size: 24px;
-			font-weight:500;
-			font-weight: bolder;
-			color:#999
-			}
-		#manage h3 {
-			font-family:Arial, Helvetica, sans-serif;
-			color:#9C3;
-			font-weight: 100;
-			font-size:14px;
-			font: Verdana, Geneva, sans-serif;
-			}
-		#manage h4 {
-			font-family:Arial, Helvetica, sans-serif;
-			font-weight: bold;
-			font-size:14px;
-			font: Verdana, Geneva, sans-serif;
-			}
-		#manage h5 {
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:10px;
-			font: Verdana, Geneva, sans-serif;
-			}
-
+	#content h4 {
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size:14px;
+		font: Verdana, Geneva, sans-serif;
+		}
+	#content h5 {
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:10px;
+		font: Verdana, Geneva, sans-serif;
+		}
 
 /* midground (paper) */
 #privacy-bg2 {

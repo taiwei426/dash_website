@@ -130,38 +130,19 @@ hr {
 	padding-top: 10px;
 	padding-left: 115px;
 }
-#imageBox {
-	height: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
+#letter{
+	width: 800px;
 }
-#phone {
-	width: 400px;
+#letterBox {
+	width: 300px;
+	float: left;
+	padding-right: 60px;
+}
+#letterContent {
 	float: left;
 }
-#connectingBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 100px;
-}
-#descriptionBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 20px;
-}
-#signUpBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 10px;
-}
-#videoBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 20px;
-}
-#video {
-	float: right;
-	padding-left: 25px;
+#letterEnding {
+	text-align: right;
 }
 #recentPressBox {
 	width: 380px;

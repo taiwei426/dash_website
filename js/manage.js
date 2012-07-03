@@ -118,7 +118,7 @@ function navBar(){
 	} else if ($(document).scrollTop() >= section5Top && $(document).scrollTop() < section6Top){
 		$('nav#primaryLeft a.guardians').addClass('active');
 	} else if ($(document).scrollTop() >= section6Top && $(document).scrollTop() < section6Top){
-	$('nav#primaryLeft a.tagging').addClass('active');
+		$('nav#primaryLeft a.tagging').addClass('active');
 	} else if ($(document).scrollTop() >= section7Top && $(document).scrollTop() < section6Top){
 		$('nav#primaryLeft a.playlist').addClass('active');
 	} else if ($(document).scrollTop() >= section8Top && $(document).scrollTop() < section6Top){
