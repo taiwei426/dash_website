@@ -36,9 +36,9 @@ $(document).ready(function() {
 		});
     	return false;
     });
-    $('a.account').click(function(){
+    $('a.apphelp').click(function(){
     	$('html, body').animate({
-    		scrollTop:$('#account').offset().top
+    		scrollTop:$('#apphelp').offset().top
     	}, 1000, function() {
 	    	manageScroll(); // Callback is required for iOS
 		});
@@ -47,14 +47,6 @@ $(document).ready(function() {
 	$('a.guardians').click(function(){
     	$('html, body').animate({
     		scrollTop:$('#guardians').offset().top
-    	}, 1000, function() {
-	    	manageScroll(); // Callback is required for iOS
-		});
-    	return false;
-    });
-	$('a.tagging').click(function(){
-    	$('html, body').animate({
-    		scrollTop:$('#tagging').offset().top
     	}, 1000, function() {
 	    	manageScroll(); // Callback is required for iOS
 		});
@@ -106,8 +98,8 @@ function navBar(){
 	var section1Top =  0;
 	// The top of each section is offset by half the distance to the previous section.
 	var section2Top =  $('#upload').offset().top - (($('#download').offset().top - $('#upload').offset().top) / 2);
-	var section3Top =  $('#download').offset().top - (($('#account').offset().top - $('#download').offset().top) / 2);
-	var section4Top =  $('#account').offset().top - (($('#guardians').offset().top - $('#account').offset().top) / 2);
+	var section3Top =  $('#download').offset().top - (($('#apphelp').offset().top - $('#download').offset().top) / 2);
+	var section4Top =  $('#apphelp').offset().top - (($('#guardians').offset().top - $('#apphelp').offset().top) / 2);
 	var section5Top =  $('#guardians').offset().top - (($('#tagging').offset().top - $('#guardians').offset().top) / 2);
 	var section6Top =  $('#tagging').offset().top - (($('#playlist').offset().top - $('#tagging').offset().top) / 2);
 	var section7Top =  $('#playlist').offset().top - (($('#calllog').offset().top - $('#playlist').offset().top) / 2);
@@ -122,7 +114,7 @@ function navBar(){
 	} else if ($(document).scrollTop() >= section3Top && $(document).scrollTop() < section4Top){
 		$('nav#primaryLeft a.download').addClass('active');
 	} else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section5Top){
-		$('nav#primaryLeft a.account').addClass('active');
+		$('nav#primaryLeft a.apphelp').addClass('active');
 	} else if ($(document).scrollTop() >= section5Top && $(document).scrollTop() < section6Top){
 		$('nav#primaryLeft a.guardians').addClass('active');
 	} else if ($(document).scrollTop() >= section6Top && $(document).scrollTop() < section6Top){
@@ -143,17 +135,17 @@ function navBar(){
 	} else if ($(document).scrollTop() >= section3Top && $(document).scrollTop() < section4Top){
 		$('nav#barBg a.download').addClass('active');
 	} else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section5Top){
-		$('nav#barBg a.account').addClass('active');
-	} else if ($(document).scrollTop() >= section5Top && $(document).scrollTop() < section6Top){
-		$('nav#barBg a.guardians').addClass('active');
-	} else if ($(document).scrollTop() >= section6Top && $(document).scrollTop() < section6Top){
-		$('nav#barBg a.tagging').addClass('active');
-	} else if ($(document).scrollTop() >= section7Top && $(document).scrollTop() < section6Top){
-		$('nav#barBg a.playlist').addClass('active');
-	} else if ($(document).scrollTop() >= section8Top && $(document).scrollTop() < section6Top){
-		$('nav#barBg a.calllog').addClass('active');
-	} else if ($(document).scrollTop() >= section9Top){
-		$('nav#barBg a.data').addClass('active');
+		$('nav#barBg a.apphelp').addClass('active');
+	} else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section6Top){
+		$('nav#barBg a.apphelp').addClass('active');
+	} else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section6Top){
+		$('nav#barBg a.apphelp').addClass('active');
+	} else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section6Top){
+		$('nav#barBg a.apphelp').addClass('active');
+	} else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section6Top){
+		$('nav#barBg a.apphelp').addClass('active');
+	} else if ($(document).scrollTop() >= section4Top){
+		$('nav#barBg a.apphelp').addClass('active');
 	}
 }
 /* gray background behind the bottom navigation...i don't think it works yet... */	

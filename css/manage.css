@@ -130,30 +130,6 @@ hr {
 	padding-top: 10px;
 	padding-left: 115px;
 }
-#imageBox {
-	height: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-#phone {
-	width: 400px;
-	float: left;
-}
-#connectingBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 100px;
-}
-#descriptionBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 20px;
-}
-#signUpBox {
-	float: right;
-	padding-right:25px;
-	padding-top: 10px;
-}
 #videoBox {
 	float: right;
 	padding-right:25px;
@@ -162,56 +138,6 @@ hr {
 #video {
 	float: right;
 	padding-left: 25px;
-}
-#recentPressBox {
-	width: 380px;
-	float: left;
-}
-#recentPressBoxContent {
-	padding-top: 15px;
-	float: left
-}
-#mediaInfo{
-	width: 250px;
-	float: right;
-}
-#mediaInfoContent {
-	padding-top: 30px;
-	float: left
-}
-#mediaBigIdea{
-	padding-top: 30px;
-	float: left
-}
-#employee {
-	padding-bottom: 40px;
-	width: 50%;
-	float:left;
-	min-height: 130px;
-	text-align: left;
-}
-#headshot {
-	height: 120px;
-	width: 120px;
-	float:left;	
-}
-#employeeInfo{
-	float:left;
-	text-align: left;
-	padding-left: 15px;
-}
-#contactUs {
-	width: 280px;
-	float: left;
-}
-#stayConnected{
-	width: 300px;
-	float: left;
-}
-#socialMedia{
-	float: left;
-	padding-top: 20px;
-	padding-right: 10px;
 }
 #bottomIcon{
 	z-index: 5;
@@ -379,9 +305,9 @@ nav#bottomBarBg a.active {
 	width: 900px;	
 	margin: 0 auto;
 	}
-	#manage section {
+	#manage article {
 	width: 700px;
-	padding-top: 60px;
+	padding-top: 20px;
 	padding-left: 100px;
 		}
 		#dashboard {
@@ -396,30 +322,42 @@ nav#bottomBarBg a.active {
 			position: absolute;
 			top: 2180px;
 			}
-		#account{
+		#apphelp {
 			position: absolute;
 			top: 3270px;
 			}
-		#guardians{
-			position: absolute;
-			top: 4260px;
-			}
-		#tagging{
-			position: absolute;
-			top: 5350px;
-			}
-		#playlist{
-			position: absolute;
-			top: 6440px;
-			}
-		#calllog{
-			position: absolute;
-			top: 7530px;
-			}
-		#data{
-			position: absolute;
-			top: 8620px;
-			}
+			#apphelp section {
+			width: 700px;
+				}
+				#account{
+					position: absolute;
+					padding-top: 20px;
+					}
+				#guardians{
+					position: absolute;
+					top: 960px;
+					padding-top: 100px;
+					}
+				#tagging{
+					position: absolute;
+					top: 1770px;
+					padding-top: 100px
+					}
+				#playlist{
+					position: absolute;
+					top: 2550px;
+					padding-top: 100px;
+					}
+				#calllog{
+					position: absolute;
+					top: 3350px;
+					padding-top: 100px;
+					}
+				#data{
+					position: absolute;
+					top: 4160px;
+					padding-top: 100px;
+					}
 		#manage h1 {
 			margin: 50px 0 25px 0;
 			font-size: 45px;
