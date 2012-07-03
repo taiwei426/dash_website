@@ -504,6 +504,10 @@ nav#bottomBarBg a.active {
 		position: absolute;
 		top: 9000px;
 		}
+	#bg2-11 {
+		position: absolute;
+		top: 9488px;
+		}
 /* background (wood) */
 #parallax-bg1 {
 	z-index: 1;
