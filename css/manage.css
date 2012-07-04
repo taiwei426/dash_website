@@ -175,6 +175,7 @@ hr {
 }
 #paragraph {
 	float: left;
+	width: 850px;
 }
 
 #howToContainer {
@@ -325,7 +326,7 @@ nav#bottomBarBg a.active {
 			}
 		#download {
 			position: absolute;
-			top: 2180px;
+			top: 2380px;
 			}
 		#apphelp {
 			position: absolute;
