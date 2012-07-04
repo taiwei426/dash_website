@@ -168,6 +168,11 @@ hr {
 #vid{
 	padding-left: 10px;
 }
+#upload {
+	padding-bottom: 20px;
+	width: 850px;
+
+}
 #paragraph {
 	float: left;
 }
