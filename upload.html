@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div class="file-upload-btn">
+	<label for="file-upload-1">Upload file</label>
+	<input id="file-upload-1" type="file" name="uploaded" />
+   </div>
+   
+    <iframe src="https://dash-staging.herokuapp.com/account_imports" width="100%"></iframe>
+   
+   
+   <form>
+	<span style="position: relative">
+		<span style="position:absolute; top:0; left:0; width:100px; filter:alpha(opacity=0); opacity:0.0; overflow:hidden">
+			<input type="file" name=excel onpropertychange="fake_upload.value=this.value" style="height:28px;width:100px;cursor:hand;">
+		</span>
+		<input type="text" name="fake_upload" style="width: 100px">
+	</span>
+</form>
+
+
+
+
+<li class="upload">
+    <label for="realupload">Upload Image: </label>
+    <div class="fakeupload">
+        <input type="text" name="fakeupload" /> <!-- browse button is here as background -->
+    </div>
+    <input type="file" name="upload" id="realupload" class="realupload" onchange="this.form.fakeupload.value = this.value;" />
+</li>
+
+</div>
+</body>
+</html>
