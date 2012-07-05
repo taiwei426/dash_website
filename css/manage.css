@@ -77,12 +77,12 @@ a:visited {
 	-moz-transition: color 0.25s ease-out;
 	-o-transition: color 0.25s ease-out;
 	transition: color 0.25s ease-out;
-	color:#FFF;
+	color:#9C3;
 	outline: none;
 	text-decoration:none;
 	}
 	a:hover {
-	color:#9C3;
+	color:#666;
 		}
 img { 
 	display:block;
@@ -250,6 +250,7 @@ nav#primaryLeft a {
 	width: 100px;
 	height: 40px;
 	text-indent: -9999px;
+	color: #fff;
 }
 nav#primaryLeft a:hover {
 	color: #000;
