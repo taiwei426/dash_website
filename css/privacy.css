@@ -77,12 +77,12 @@ a:visited {
 	-moz-transition: color 0.25s ease-out;
 	-o-transition: color 0.25s ease-out;
 	transition: color 0.25s ease-out;
-	color:#FFF;
+	color:#9C3;
 	outline: none;
 	text-decoration:none;
 	}
 	a:hover {
-	color:#9C3;
+	color:#666;
 		}
 img { 
 	display:block;
@@ -113,17 +113,43 @@ hr {
 	margin: 0 auto;
 	line-height: 1.7;
 }
+#headerBg {
+	z-index: 4;
+	position: fixed;
+	padding-left: 145px;
+	margin: 0 auto;
+	line-height: 1.7;
+	width: 100px;
+	height:80px;
+	float: right;
+}
 #header {
 	z-index: 4;
 	position: fixed;
-	max-width: 940px;
+	max-width: 1060px;
 	padding: 0 200;
 	margin: 0 auto;
 	line-height: 1.7;
-	width: 892px;
+	width: 1060px;
+	height:80px;	
 }
 #branding {
 	float: right;
+}
+#mainHeader{
+	float: left;
+	padding-left: 200px;
+	padding-top: 30px;
+}
+#manageHeader {
+	float: left;
+	padding-left: 40px;
+	padding-top: 33px;
+}
+#privacyHeader {
+	float: left;
+	padding-left: 40px;
+	padding-top: 28px;
 }
 #appStore {
 	float: left; 
@@ -161,6 +187,7 @@ nav#primaryLeft a {
 	width: 100px;
 	height: 40px;
 	text-indent: -9999px;
+	color: #000;
 }
 nav#primaryLeft a:hover {
 	color: #000;
@@ -246,10 +273,10 @@ nav#bottomBarBg a.active {
 /* content */
 #content {
 	position: absolute;
-	width: 700px;	
+	width: 800px;	
 	margin: 0 auto;
-	padding-top: 20px;
-	padding-left: 220px;
+	padding-top: 70px;
+	padding-left: 200px;
 	}
 	#content h1 {
 		margin: 50px 0 25px 0;
@@ -301,35 +328,39 @@ nav#bottomBarBg a.active {
 		}
 	#bg2-2 {
 		position: absolute;
-		top: 1000px;		
+		top: 700px;		
 		}
 	#bg2-3 {
 		position: absolute;
-		top: 2000px;
+		top: 1400px;
 		}
 	#bg2-4 {
 		position: absolute;
-		top: 3000px;
+		top: 2100px;
 		}
 	#bg2-5 {
 		position: absolute;
-		top: 4000px;
+		top: 2800px;
 		}
 	#bg2-6 {
 		position: absolute;
-		top: 5000px;
+		top: 3500px;
 		}
 	#bg2-7 {
 		position: absolute;
-		top: 5988px;
+		top: 4200px;
 		}
 	#bg2-8 {
 		position: absolute;
-		top: 6488px;
+		top: 4900px;
 		}
 	#bg2-9 {
 		position: absolute;
-		top: 7500px;
+		top: 5600px;
+		}
+	#bg2-10 {
+		position: absolute;
+		top: 6288px;
 		}
 /* background (wood) */
 #privacy-bg1 {

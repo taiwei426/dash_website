@@ -77,12 +77,12 @@ a:visited {
 	-moz-transition: color 0.25s ease-out;
 	-o-transition: color 0.25s ease-out;
 	transition: color 0.25s ease-out;
-	color:#FFF;
+	color:#9C3;
 	outline: none;
 	text-decoration:none;
 	}
 	a:hover {
-	color:#9C3;
+	color:#666;
 		}
 img { 
 	display:block;
@@ -113,17 +113,43 @@ hr {
 	margin: 0 auto;
 	line-height: 1.7;
 }
+#headerBg {
+	z-index: 4;
+	position: fixed;
+	padding-left: 145px;
+	margin: 0 auto;
+	line-height: 1.7;
+	width: 100px;
+	height:80px;
+	float: right;
+}
 #header {
 	z-index: 4;
 	position: fixed;
-	max-width: 940px;
+	max-width: 1060px;
 	padding: 0 200;
 	margin: 0 auto;
 	line-height: 1.7;
-	width: 892px;
+	width: 1060px;
+	height:80px;	
 }
 #branding {
 	float: right;
+}
+#mainHeader{
+	float: left;
+	padding-left: 200px;
+	padding-top: 30px;
+}
+#manageHeader {
+	float: left;
+	padding-left: 40px;
+	padding-top: 33px;
+}
+#privacyHeader {
+	float: left;
+	padding-left: 40px;
+	padding-top: 28px;
 }
 #appStore {
 	float: left; 
@@ -155,6 +181,19 @@ hr {
 
 
 /*manage divs*/
+
+#howtodash{
+	padding-top: 20px;
+	float: left;
+}
+#iconContainer{
+	width: 200px;
+	height: 160px;
+	float: left;
+}
+#icon{
+	padding-left: 20px;}
+
 #subhead {
 }
 #title {
@@ -168,13 +207,19 @@ hr {
 #vid{
 	padding-left: 10px;
 }
+#upload {
+	padding-bottom: 20px;
+	width: 850px;
+
+}
 #paragraph {
 	float: left;
+	width: 850px;
 }
 
 #howToContainer {
 	padding-top: 20px;
-	width: 850px;
+	width: 800px;
 }
 #howToPics {
 	padding-top: 15px;
@@ -216,6 +261,7 @@ nav#primaryLeft a {
 	width: 100px;
 	height: 40px;
 	text-indent: -9999px;
+	color: #fff;
 }
 nav#primaryLeft a:hover {
 	color: #000;
@@ -307,8 +353,8 @@ nav#bottomBarBg a.active {
 	}
 	#manage article {
 	width: 700px;
-	padding-top: 20px;
-	padding-left: 100px;
+	padding-top: 70px;
+	padding-left: 80px;
 		}
 		#dashboard {
 			position: absolute;
@@ -320,7 +366,7 @@ nav#bottomBarBg a.active {
 			}
 		#download {
 			position: absolute;
-			top: 2180px;
+			top: 2380px;
 			}
 		#apphelp {
 			position: absolute;

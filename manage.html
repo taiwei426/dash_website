@@ -55,10 +55,15 @@
 	</head>
 
 	<body>
-    	<div id="wrapper">
-            <div id="header">
-            	<div id="appStore"><img src="img/comingSoon.png" width="100" height="40" /></div>
-            	<div id="branding"><a class="index" href="index.html"><img src="img/dashLogo.png" width="145" height="80" /></a></div>
+    	<div id="headerBg"></div>
+        <div id="wrapper">
+            <div id="headerBg"><img src="img/headerBg.png" width="910" height="80"></div>
+            <div id="header">               
+                <div id="mainHeader"><a class="main" href="main.html"><img src="img/headerAbout.png"/></a></div>
+                <div id="manageHeader"><a class="manage" href="manage.html"><img src="img/headerManage.png" /></a></div>
+                <div id="privacyHeader"><a class="privacy" href="privacy.html"><img src="img/headerPrivacy.png" /></a></div>
+                <div id="branding"><a class="index" href="index.html"><img src="img/dashLogo.png" width="145" height="100" /></a></div>
+                <div id="appStore"><img src="img/comingSoon.png" width="100" height="40" /></div>
             </div>
           <nav id="barBg">
             <ul>                     
@@ -75,18 +80,6 @@
                 <li><a class="download" href="#download">download</a></li>
                 <li><a class="apphelp" href="#apphelp">how to...</a></li>
               </ul>         
-            </nav>            
-            <nav id="bottomBarBg">
-                <ul>
-                    <li><a class="main" href="main.html"></a></li>
-                    <li><a class="privacy" href="privacy.html"></a></li>
-                </ul>
-            </nav>
-            <nav id="bottomLeft">
-                <ul>
-                    <li><a class="main" href="main.html">about</a></li>
-                    <li><a class="privacy" href="privacy.html">privacy</a></li>
-                </ul>
             </nav>
             
             <div id="bottomIcon">
@@ -98,25 +91,82 @@
         	<div id="manage">               
                 <article id="dashboard">    
                     <header><h1>dashboard</h1></header>                 
-                    <h3> <a class="upload" href="#upload">upload my contacts</a></h3>
-                    <h3> <a class="download" href="#download">downloading call log</a></h3>
-                    <h3> how to...</h3>
-                        <p><a class="account" href="#account">add an account</a></p>
-                        <p><a class="guardians" href="#guardians">add a guardian </a></p>
-                        <p><a class="tagging" href="#tagging">tag students for playlist</a></p>
-                        <p><a class="playlist" href="#playlist">playlist</a></p>
-                        <p><a class="calllog" href="#calllog">calllog</a></p>
-                        <p><a class="data" href="#data">data</a></p>
+                    <h2> <a class="upload" href="#upload">upload my contacts</a></h2>
+                    <h2> <a class="download" href="#download">downloading call log</a></h2>
+                    <h2> how to...</h2>
+                    <div id="howtodash">
+                        <div id="iconContainer">
+                            <div id="icon">
+                                <a class="account" href="#account"><img src="img/how_a.png"></a>
+                            </div>
+                            <p><a class="account" href="#account">add an account</a></p>
+                        </div>
+                        <div id="iconContainer">
+                            <div id="icon">
+                                <a class="guardians" href="#guardians"><img src="img/how_b.png"></a>
+                            </div>
+                            <p><a class="guardians" href="#guardians">add a guardian</a></p>
+                        </div>
+                        <div id="iconContainer">
+                            <div id="icon">
+                                <a class="tagging" href="#tagging"><img src="img/how_c.png"></a>
+                            </div>
+                            <p><a class="tagging" href="#tagging">tag students for playlist</a></p>
+                        </div>
+                        <div id="iconContainer">
+                            <div id="icon">
+                                <a class="playlist" href="#playlist"><img src="img/how_d.png"></a>
+                            </div>
+                            <p><a class="playlist" href="#playlist">playlist</a></p>
+                        </div>
+                        <div id="iconContainer">
+                            <div id="icon">
+                                <a class="calllog" href="#calllog"><img src="img/how_e.png"></a>
+                            </div>
+                            <p><a class="calllog" href="#calllog">calllog</a></p>
+                        </div>
+                        <div id="iconContainer">
+                            <div id="icon">
+                                <a class="data" href="#data"><img src="img/how_f.png"></a>
+                            </div>
+                            <p><a class="data" href="#data">data</a></p>
+                        </div>
+                    </div>
                 </article>
                  <article id="upload">
                     <h1>upload</h1>
-                    <p>You can import your contacts into Dash using the form below. The import file must be in comma separted value (CSV) format which you can easily generate from an Excel, Numbers, OpenOffice, LibreOffice, or Google Spreadsheets file using their built-in export functionality.</p>
-                    <p>Please see the <a href="dash-upload-template.csv">import format example file</a> for a reference on how your import file should be formatted.</p>
+                    <p>You can import your contacts into Dash here! </p>
                     <iframe src="https://dash-staging.herokuapp.com/account_imports" width="100%"></iframe>
+                    <div id="paragraph">
+                        <ul>
+                            <li><h2>Instructions</h2></li>
+                            <li>1. Download the sample form <a href="dash-upload-template.csv">here</a>.</li>
+                        </ul>
+                    </div>
+                    <div id="howToContainer">                        
+                        2. The only required sections are [your user name here], [your password here], and Student First Name. If all you have is a roster of students with their full names, paste that into the Student First Name column.
+                        <img src="img/upload1.png">
+                    </div>
+                    <div id="howToContainer">
+                         3. Or, fill out more! As much or as little as you like.
+                        <img src="img/upload2.png">
+                    </div>
+                    <div id="howToContainer">
+                        4. Please limit phone types for Emergency Contacts to work, home, and cell or this upload won’t work.
+                        <img src="img/upload3.png">
+                    </div>
+                    <div id="howToContainer">
+                    <div id="paragraph">
+                            <ul>
+                                <li>5. Save or export as a .csv</li>
+                                <li>6. Attach it through Choose File and hit Import!</li>
+                            </ul>
+                        </div>
+                    </div>
                 </article>
                 <article id="download">
                     <h1>download</h1>
-                    <p>Sa velicid quo es mo con pe et perum fuga. Santemp erspiet faccatem escim quo tecate eation poriam facesto odi ad ut intia sin conseque occus ut aut in ra id et et porro occaborro berrorepra seniend amendae vel inimaximus rem quuntiorem. </p>
+                    <p>downloading all the data from your dash account will be a feature in the near future! check back another time :)</p>
                 </article>
                 <article id="apphelp">
                     <section id="account">
@@ -256,17 +306,17 @@
 			
 			<!-- Parallax  midground paper -->
 			<div id="parallax-bg2">
-				<img id="bg2-1" src="img/paper.png" alt="paper" width="1350"/>
-				<img id="bg2-2" src="img/paper.png" alt="paper" width="1350"/>
-				<img id="bg2-3" src="img/paper.png" alt="paper" width="1350"/>
-				<img id="bg2-4" src="img/paper.png" alt="paper" width="1350"/>
-				<img id="bg2-5" src="img/paper.png" alt="paper" width="1350"/>
-                <img id="bg2-6" src="img/paper.png" alt="paper" width="1350"/>
-                <img id="bg2-7" src="img/paper.png" alt="paper" width="1350"/>
-                <img id="bg2-8" src="img/paper.png" alt="paper" width="1350"/>
-                <img id="bg2-9" src="img/paper.png" alt="paper" width="1350"/>
-                <img id="bg2-10" src="img/paper.png" alt="paper" width="1350"/>
-                <img id="bg2-11" src="img/paper.png" alt="paper" width="1350"/>
+				<img id="bg2-1" src="img/paper.png" alt="paper" width="950"/>
+				<img id="bg2-2" src="img/paper.png" alt="paper" width="950"/>
+				<img id="bg2-3" src="img/paper.png" alt="paper" width="950"/>
+				<img id="bg2-4" src="img/paper.png" alt="paper" width="950"/>
+				<img id="bg2-5" src="img/paper.png" alt="paper" width="950"/>
+                <img id="bg2-6" src="img/paper.png" alt="paper" width="950"/>
+                <img id="bg2-7" src="img/paper.png" alt="paper" width="950"/>
+                <img id="bg2-8" src="img/paper.png" alt="paper" width="950"/>
+                <img id="bg2-9" src="img/paper.png" alt="paper" width="950"/>
+                <img id="bg2-10" src="img/paper.png" alt="paper" width="950"/>
+                <img id="bg2-11" src="img/paper.png" alt="paper" width="950"/>
 			</div>
 			
 			<!-- Parallax  background desk -->
