@@ -116,31 +116,29 @@ hr {
 #headerBg {
 	z-index: 4;
 	position: fixed;
-	padding: 0 200;
+	padding-left: 145px;
 	margin: 0 auto;
 	line-height: 1.7;
-	width: 100%;
+	width: 100px;
 	height:80px;
-	background-image: url('../img/headerBg.png');
+	float: right;
 }
 #header {
 	z-index: 4;
 	position: fixed;
-	max-width: 1040px;
+	max-width: 1060px;
 	padding: 0 200;
 	margin: 0 auto;
 	line-height: 1.7;
-	width: 1040px;
-	height:80px;
-	background-image: url('../img/headerBg.png');
+	width: 1060px;
+	height:80px;	
 }
 #branding {
-	float: left;
-	padding-top: 10px;
+	float: right;
 }
 #mainHeader{
 	float: left;
-	padding-left: 75px;
+	padding-left: 200px;
 	padding-top: 30px;
 }
 #manageHeader {
@@ -183,6 +181,19 @@ hr {
 
 
 /*manage divs*/
+
+#howtodash{
+	padding-top: 20px;
+	float: left;
+}
+#iconContainer{
+	width: 200px;
+	height: 160px;
+	float: left;
+}
+#icon{
+	padding-left: 20px;}
+
 #subhead {
 }
 #title {
@@ -203,12 +214,12 @@ hr {
 }
 #paragraph {
 	float: left;
-	width: 770px;
+	width: 850px;
 }
 
 #howToContainer {
 	padding-top: 20px;
-	width: 850px;
+	width: 800px;
 }
 #howToPics {
 	padding-top: 15px;
@@ -343,7 +354,7 @@ nav#bottomBarBg a.active {
 	#manage article {
 	width: 700px;
 	padding-top: 70px;
-	padding-left: 100px;
+	padding-left: 80px;
 		}
 		#dashboard {
 			position: absolute;

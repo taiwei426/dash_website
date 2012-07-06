@@ -116,31 +116,30 @@ hr {
 #headerBg {
 	z-index: 4;
 	position: fixed;
-	padding: 0 200;
+	padding-left: 145px;
 	margin: 0 auto;
 	line-height: 1.7;
-	width: 100%;
+	width: 100px;
 	height:80px;
-	background-image: url('../img/headerBg.png');
+	float: right;
 }
 #header {
 	z-index: 4;
 	position: fixed;
-	max-width: 1040px;
+	max-width: 1060px;
 	padding: 0 200;
 	margin: 0 auto;
 	line-height: 1.7;
-	width: 1040px;
-	height:80px;
-	background-image: url('../img/headerBg.png');
+	width: 1060px;
+	height:80px;	
 }
+
 #branding {
-	float: left;
-	padding-top: 10px;
+	float: right;
 }
 #mainHeader{
 	float: left;
-	padding-left: 75px;
+	padding-left: 200px;
 	padding-top: 30px;
 }
 #manageHeader {
@@ -235,6 +234,8 @@ hr {
 	
 
 
+
+
 /*manage divs*/
 #subhead {
 }
@@ -286,12 +287,12 @@ nav#primaryLeft {
 	text-align:right;
 }
 nav#primaryLeft li {
-	height: 40px;
+	height: 43px;
 }
 nav#primaryLeft a {
 	display: block;
 	width: 100px;
-	height: 40px;
+	height: 43px;
 	color: #fff;
 }
 nav#primaryLeft a:hover {
@@ -307,18 +308,24 @@ nav#barBg {
 	padding-top: 190px;
 }
 nav#barBg li {
-	height: 40px;
+	height: 43px;
 }
 nav#barBg a {
 	display: block;
-	width: 150px;
-	height: 40px;
+	width: 165px;
+	height: 43px;
 	text-indent: -9999px;
 	background: transparent url('../img/nav-bar.png') 4px 4px no-repeat;
 }
 nav#barBg a.active {
 	color: #fff;
 	background: transparent url('../img/nav-bar.png') 4px -41px no-repeat;
+}
+#leftPaper {
+	float: right;
+	width: 20px;
+	height: 250px;
+	background-color: #fff;
 }
 
 
@@ -386,7 +393,7 @@ nav#bottomBarBg a.active {
 	#content article {
 	width: 700px;
 	padding-top: 70px;
-	padding-left: 100px;
+	padding-left: 80px;
 		}
 		#about {
 			position: absolute;
@@ -485,35 +492,39 @@ nav#bottomBarBg a.active {
 		}
 	#bg2-2 {
 		position: absolute;
-		top: 1000px;		
+		top: 700px;		
 		}
 	#bg2-3 {
 		position: absolute;
-		top: 2000px;
+		top: 1400px;
 		}
 	#bg2-4 {
 		position: absolute;
-		top: 3000px;
+		top: 2100px;
 		}
 	#bg2-5 {
 		position: absolute;
-		top: 4000px;
+		top: 2800px;
 		}
 	#bg2-6 {
 		position: absolute;
-		top: 5000px;
+		top: 3500px;
 		}
 	#bg2-7 {
 		position: absolute;
-		top: 5988px;
+		top: 4200px;
 		}
 	#bg2-8 {
 		position: absolute;
-		top: 6488px;
+		top: 4900px;
 		}
 	#bg2-9 {
 		position: absolute;
-		top: 7500px;
+		top: 5600px;
+		}
+	#bg2-10 {
+		position: absolute;
+		top: 6300px;
 		}
 /* background (wood) */
 #parallax-bg1 {
